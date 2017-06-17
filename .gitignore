@@ -1,0 +1,8 @@
+.idea/
+main.cpp
+main.py
+CMakeLists.txt
+build/
+.pyc
+.javac
+.exe
