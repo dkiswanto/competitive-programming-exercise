@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class Main {
 
     // kinto_d2 	478B - Random Teams 	Java 8 	Accepted 	140 ms 	20500 KB
-
     static long friendship(long n){
         return n *  (n - 1) / 2 ;
     }
@@ -41,11 +40,8 @@ public class Main {
 
             minFriend = friendship(divider + 1) * lastTeam + friendship(divider) * (team - lastTeam);
             // f(2) * (6 - 3) + f(2 + 1) * 3
-
-
         }
 
         System.out.println(String.format("%s %s", minFriend, maxFriend));
-
     }
 }

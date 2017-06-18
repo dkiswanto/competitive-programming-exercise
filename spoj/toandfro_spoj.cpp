@@ -23,7 +23,7 @@ int main() {
         long enc_length = encrypted_word.length();
         long m =  enc_length / n;
         char matrix[m][n];
-//        cout << "matrix size " << m << "x" << n << " - row x column" << endl;
+        // cout << "matrix size " << m << "x" << n << " - row x column" << endl;
 
         bool reverse = false;
         int idx = 0;
@@ -33,7 +33,7 @@ int main() {
 
             if (y >= 0 && y < n) {
                 matrix[x][y] = char_selected;
-//                cout << x << "x" << y << "=" << char_selected << endl;
+                // cout << x << "x" << y << "=" << char_selected << endl;
                 // left right - right left increment
                 reverse ? y-- : y++;
             } else {
@@ -42,13 +42,13 @@ int main() {
                 reverse ? y++ : y--;
                 reverse = !reverse;
                 matrix[x][y] = char_selected;
-//                cout <<"reversed - " << x << "x" << y << "=" << char_selected << endl;
+                // cout <<"reversed - " << x << "x" << y << "=" << char_selected << endl;
                 reverse ? y-- : y++;
 
             }
         }
 
-//         output matrix
+        // output matrix
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
                 cout << matrix[j][i];
@@ -58,6 +58,5 @@ int main() {
         
         // input for next case
         cin >> n;
-//        n = 0;
     }
 }

@@ -25,7 +25,6 @@ int main() {
         }
     }
 
-
 //    cout << max << endl;
     cout << advancers << endl;
 
