@@ -1,5 +1,5 @@
 # competitive-programming-guide
 
 ### Contents
-* [Input / Output](#)
+* [Input / Output](input-output.md)
 

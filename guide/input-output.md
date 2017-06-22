@@ -1,21 +1,4 @@
-## Input 
-### Integer based 
-* Input : ```1 2 3 4 5 6 7 8 9``` or
-```
-1 2 3
-4 5 6
-7 8 9
-```
-
-``` c++
-for(int i=0; i < n; i++){
-    int x;
-    cin >> x;
-    // save it to 1D or 2D array (for matrix)
-    // use nested loop for 2D array
-    data[i] = x;
-}
-```
+## Input
 
 ### String Based
 * Input : ``` Hello this is string with space! ```
@@ -25,20 +8,31 @@ getline(cin, text, '\n');
 cout << text << endl;
 ```
 
-### Infinite Case (Unknown Case)
+### Infinite Case
 ``` c++
 // c++
+int x;
 while (cin >> x) {
-// code
+    // code
 }
 ```
-``` python
-# Python
-# TODO: ADD HERE
+``` python3
+# Python 3
+import sys
+for line in sys.stdin.readlines():
+    data = line.strip()
+    // code
 ```
 ``` java
-// Java
-// TODO: ADD HERE
+// java
+import java.util.Scanner;
+
+Scanner scan = new Scanner(System.in);
+while (scan.hasNext()){
+    int num = scan.next();
+    // code
+}
+
 ```
 
 
@@ -51,9 +45,9 @@ cout << fixed << setprecision(2) << OUTPUT_VAR_DOUBLE << "\n";
 ```
 or 
 ``` c++
-    // import #include <stdio.h>
-    double x = 123.45678
-    printf("%.2f\n", x); // ouptut 123.46
+// import #include <stdio.h>
+double x = 123.45678
+printf("%.2f\n", x); // ouptut 123.46
 ```
 
 ## IO Redirection
