@@ -22,6 +22,8 @@ import sys
 for line in sys.stdin.readlines():
     data = line.strip()
     // code
+    // data is <class'str'>
+    // press ctrl+d to finish input
 ```
 ``` java
 // java

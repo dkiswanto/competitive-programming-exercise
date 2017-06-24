@@ -51,5 +51,8 @@ int main() {
 
     cout << max_modus_key << endl;
 
-
+    // sort map by second element (vector)
+    for (map<string,vector<int>>::iterator it = trips.begin(); it != trips.end(); ++it) {
+        sort(it->second.begin(), it->second.end());
+    }
 }
