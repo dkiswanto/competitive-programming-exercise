@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+#include <bits/stdc++.h> // must already know std lib + container first, not recommended for beginner.
 using namespace std;
 
 int main() {
@@ -7,6 +7,7 @@ int main() {
 	// cin.tie(0);
 	// ios_base::sync_with_stdio(false); // or can use this
 
+    cout << "Hello World" << endl;
 
     return 0;
 }

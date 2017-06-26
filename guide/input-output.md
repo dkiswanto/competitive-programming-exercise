@@ -49,7 +49,7 @@ or
 ``` c++
 // import #include <stdio.h>
 double x = 123.45678
-printf("%.2f\n", x); // ouptut 123.46
+printf("%.2f", x); // ouptut 123.46
 ```
 
 ## IO Redirection

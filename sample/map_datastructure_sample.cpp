@@ -23,6 +23,10 @@ int main() {
             data[temp] = 1;
         }
 
+        // BIG NOTES:
+        // if map is accessed like data[key],
+        // then key will be automatically created in a map
+
     }
 
     // get max key in map
