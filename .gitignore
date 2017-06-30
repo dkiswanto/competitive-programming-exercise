@@ -7,3 +7,4 @@ build/
 .javac
 .exe
 out
+test.cpp
