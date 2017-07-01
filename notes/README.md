@@ -1,4 +1,4 @@
-## competitive-programming-guide
+## competitive-programming-notes
 
 ### Definition
 * "Given well-known Computer Science (CS) problems, solve them quickly as possible!" - Steven Halim
@@ -14,4 +14,4 @@
 * [Math](math.md)
 * [C++ Usage](cpp.md)
 * [Complexity](complexity.md)
-* [Resources + Notes](resources-notes.md)
+* [Resources](resources-notes.md)

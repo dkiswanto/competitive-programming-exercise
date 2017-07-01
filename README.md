@@ -8,5 +8,5 @@
 ### Course
 * [T-414-ÁFLV: A Competitive Programming Course (2016 edition)](https://algo.is/t-414-aflv-competitive-programming-course-2016/) [Running]
 
-### Private Guide
-* [Private Guide](guide)
+### Private Notes
+* [Private Notes](notes)

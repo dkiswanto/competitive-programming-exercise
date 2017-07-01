@@ -1,6 +1,6 @@
-## Resources + Notes
+## Resources
 
-[Another Resource]
+[Mix]
 * http://www.wolframalpha.com/
 * http://oeis.org/
 * http://visualgo.net/
@@ -21,6 +21,7 @@
 - https://github.com/iandioch/solutions/tree/master/kattis
 - https://github.com/PedroContipelli/Kattis/
 - https://github.com/maxim-kornienko/kattis/tree/master/src/main/java
+- https://github.com/luqmanarifin/cp
 
 [INC Minimal to Regional]
 - http://competition.binus.ac.id/icpc2016/final.html - 3 Soal
