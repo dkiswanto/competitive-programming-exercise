@@ -13,7 +13,9 @@
 - get length of char size / length
 - max_size() string == 9223372036854775807
 - find() return size_t (int position)
+- mystring.find('c') -> return position index;
 - mystring.substr(3,4); //return substring from index 3 and has length 4
+- mystring.erase(2,1); // erase string from index 2, with 1 character
 
 #### [STD Algorithm]
 - std::transform(v.begin(), v.end(), v.begin(), function) -> will change each element based on function
@@ -47,3 +49,7 @@
 #### [Bitset]
 - bitset<10> s(string("0010011010")); // from right to left
 - values of a bitset can be efficiently manipulated using bit operators, & (AND), | (OR), ^ (XOR)
+
+#### [Pair & Tuple]
+- pair<int, int>, pair only has 2 attribute, 'first' and 'second' just like map.
+- TODO ADD TUPLE DOCUMENTATION

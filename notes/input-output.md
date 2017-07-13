@@ -19,11 +19,19 @@ while (cin >> x) {
 ``` python3
 # Python 3
 import sys
-for line in sys.stdin.readlines():
-    data = line.strip()
-    // code
-    // data is <class'str'>
-    // press ctrl+d to finish input
+try:
+    for line in sys.stdin: # sys.stdin.readlines() must press ctrl+d to output
+        data = line.strip() # data is <class'str'>
+
+        # code here
+
+except KeyboardInterrupt: # except EOF Error
+
+    # screen output often waits until it receives a newline before displaying anything.
+    # flush() makes sure it all gets written *right now*.
+
+    sys.stdout.flush()
+    pass
 ```
 ``` java
 // java

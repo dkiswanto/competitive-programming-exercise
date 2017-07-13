@@ -29,3 +29,6 @@
 - http://competition.binus.ac.id/inc2014/?page=ScoreBoard - 3 Soal
 - http://competition.binus.ac.id/inc2013/?page=ScoreBoard - 3 Soal
 
+
+https://github.com/olimpiadeinformatika/olimpiadeinformatika.github.io/tree/master/files/compfest-ui
+http://kupaskode.blogspot.co.id/search?q=compfest
