@@ -15,6 +15,12 @@ int x;
 while (cin >> x) {
     // code
 }
+
+// infinite case but get a breakpoint (ex:0)
+while (cin >> x, x != 0) {
+    // code
+}
+
 ```
 ``` python3
 # Python 3
