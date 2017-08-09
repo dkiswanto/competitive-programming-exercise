@@ -1,6 +1,7 @@
 .idea/
-main.cpp
-main.py
+/main.cpp
+/main.py
+/main.java
 CMakeLists.txt
 build/
 .pyc
