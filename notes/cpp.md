@@ -4,8 +4,8 @@
 - Compfest7: g++ [source.cpp] -O2 -s -static -lm -std=c++11 -o [executable];
 
 #### [Range Variable]
-- int (2^32) = 32 bit / 4 bytes, 2 Billion
-- long (2^64) = 64 bit /8 bytes
+- int (2^32) = 32 bit / 4 bytes, 2 Billion -> 2.147.483.648
+- long (2^64) = 64 bit /8 bytes - 9.223.372.036.854.775.807
 - float -> precision 7
 
 #### [std::String in C++ 11]
